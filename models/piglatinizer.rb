@@ -16,7 +16,6 @@ class PigLatinizer
 
     # While a consonant...this checks every 1st letter...
     while !vowels.include?(word[0])
-
       # Keep rotating the 1st word of the array to the end until a vowel
       word = word.rotate
       # Once it sees a vowel, exit the loop with word having vowel at word[0]
