@@ -25,7 +25,6 @@ class PigLatinizer
       # letter = word.shift
       # ...Move it to the end of the array...loop continues until vowel exists in 0th index
       # word = word << letter
-
       end
 
       # Join the word array, append 'ay'
